@@ -88,7 +88,7 @@ const Hero = () => {
             <Button
               onClick={handleScrollToProjects}
               size="lg"
-              className="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-2xl border-0">
+              className="group cursor-pointer bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-2xl border-0">
               <span>View My Work</span>
               <ArrowDown className="w-5 h-5 group-hover:translate-y-1 transition-transform duration-300" />
             </Button>
@@ -96,7 +96,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-white/20 text-white bg-transparent hover:bg-white/10 hover:text-white px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm">
+                className="border-2 border-white/20 text-white cursor-pointer bg-transparent hover:bg-white/10 hover:text-white px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm">
                 <Download className="w-5 h-5" />
                 Download CV
               </Button>
