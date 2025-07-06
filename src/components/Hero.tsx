@@ -92,7 +92,7 @@ const Hero = () => {
               <span>View My Work</span>
               <ArrowDown className="w-5 h-5 group-hover:translate-y-1 transition-transform duration-300" />
             </Button>
-            <Link to="./RohitKumar-Resume.pdf" download className="rounded-full">
+            <Link to="/RohitKumar-Resume.pdf" download="RohitKumar-Resume.pdf" className="rounded-full">
               <Button
                 size="lg"
                 variant="outline"
