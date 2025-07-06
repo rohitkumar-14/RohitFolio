@@ -29,9 +29,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
-              Passionate about creating digital experiences that make a
-              difference. I help businesses and individuals bring their ideas to
-              life through innovative web solutions.
+              Passionate about crafting digital experiences that make an impact. I help businesses and individuals bring their ideas to life through innovative, user-focused web solutions.
             </p>
           </div>
 
