@@ -11,8 +11,7 @@ import {
   Clock,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import toast, { Toaster } from 'react-hot-toast';
-
+import toast, { Toaster } from "react-hot-toast";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -22,8 +21,9 @@ const Contact = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+
   const handleInputChange = (
-    e
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setFormData({
       ...formData,
@@ -31,12 +31,12 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     setTimeout(() => {
-      toast.success("Message sent successfully!");
+      toast.success("Message sent successfully!");;
       setFormData({ name: "", email: "", subject: "", message: "" });
       setIsSubmitting(false);
     }, 2000);
@@ -46,7 +46,8 @@ const Contact = () => {
     <section
       id="contact"
       className="py-24 bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 relative overflow-hidden">
-      {/* Background Elements */}<Toaster />
+      {/* Background Elements */}
+      <Toaster />
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute top-20 right-20 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl animate-float"></div>
         <div
