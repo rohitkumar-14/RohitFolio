@@ -92,9 +92,7 @@ const Skills = () => {
               Skills & Technologies
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Proficient in modern web technologies and development tools,
-              delivering full-stack solutions with attention to detail and
-              performance.
+              Skilled in modern frontend frameworks and tooling, I craft high-performance, user-centric web applications with meticulous attention to detail.
             </p>
           </div>
         </div>
