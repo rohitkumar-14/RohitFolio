@@ -90,7 +90,7 @@ const Footer = () => {
               onClick={scrollToTop}
               variant="outline"
               size="sm"
-              className="border-white/20 text-gray-600 hover:text-white hover:bg-white/10 transition-all duration-300 transform hover:scale-105">
+              className="border-white/20 text-gray-600 cursor-pointer hover:text-white hover:bg-white/10 transition-all duration-300 transform hover:scale-105">
               <ArrowUp className="h-4 w-4" />
               Back to top
             </Button>
