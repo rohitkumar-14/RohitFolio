@@ -123,7 +123,7 @@ const Projects = () => {
                       <Button
                         size="sm"
                         variant="secondary"
-                        className="transform translate-y-8 group-hover:translate-y-0 transition-all duration-500 bg-white/90 hover:bg-white">
+                        className="transform cursor-pointer translate-y-8 group-hover:translate-y-0 transition-all duration-500 bg-white/90 hover:bg-white">
                         <ExternalLink className="h-4 w-4 mr-2" />
                         Live Demo
                       </Button>
@@ -165,7 +165,7 @@ const Projects = () => {
           <Link to="https://github.com/rohitkumar-14" target="_blank">
             <Button
               size="lg"
-              className="bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+              className="bg-gradient-to-r from-gray-800 to-gray-900 cursor-pointer hover:from-gray-900 hover:to-black text-white px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
               <Github className="mr-3 h-5 w-5" />
               View All Projects on GitHub
             </Button>
