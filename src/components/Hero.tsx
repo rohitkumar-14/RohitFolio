@@ -75,9 +75,7 @@ const Hero = () => {
             className="animate-fade-in-up"
             style={{ animationDelay: "0.4s" }}>
             <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Crafting pixel-perfect digital experiences with cutting-edge
-              technologies. I transform ideas into scalable, beautiful web
-              applications.
+              Crafting pixel-perfect, responsive interfaces with modern frontend technologies. I turn ideas into visually stunning and scalable web applications.
             </p>
           </div>
 
