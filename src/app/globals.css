@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--theme-background);
+  --color-card: var(--theme-card);
+  --color-border: var(--theme-border);
+  --color-primary: var(--theme-primary);
+  --color-secondary: var(--theme-secondary);
+  --color-accent: var(--theme-accent);
+  --color-text: var(--theme-text);
+  --color-muted: var(--theme-muted);
+
+  --font-hero: var(--font-syne), sans-serif;
+  --font-heading: 'General Sans', sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+  --font-numbers: var(--font-space-grotesk), monospace;
+}
+
+/* Default Theme (Brutalist Lime) */
+:root {
+  --theme-background: #000000;
+  --theme-card: #111111;
+  --theme-border: #222222;
+  --theme-primary: #CCFF00;
+  --theme-secondary: #FFFFFF;
+  --theme-accent: #CCFF00;
+  --theme-text: #FFFFFF;
+  --theme-muted: #666666;
+}
+
+/* Cyberpunk Cyan */
+.theme-cyberpunk {
+  --theme-background: #050505;
+  --theme-card: #101010;
+  --theme-border: #222222;
+  --theme-primary: #00E5FF;
+  --theme-secondary: #7C3AED;
+  --theme-accent: #22C55E;
+  --theme-text: #FFFFFF;
+  --theme-muted: #9CA3AF;
+}
+
+/* Midnight Ocean */
+.theme-midnight {
+  --theme-background: #0B1120;
+  --theme-card: #1E293B;
+  --theme-border: #334155;
+  --theme-primary: #38BDF8;
+  --theme-secondary: #818CF8;
+  --theme-accent: #F472B6;
+  --theme-text: #F8FAFC;
+  --theme-muted: #94A3B8;
+}
+
+/* Solar Flare */
+.theme-solar {
+  --theme-background: #0A0908;
+  --theme-card: #141311;
+  --theme-border: #2A2825;
+  --theme-primary: #FF5D73;
+  --theme-secondary: #FF8C42;
+  --theme-accent: #FFD166;
+  --theme-text: #FDFCDC;
+  --theme-muted: #A39B8F;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  /* Optional: grain/noise overlay setup could go here */
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: #000;
+}
+
+@keyframes shimmer { 100% { transform: translateX(200%); } }
