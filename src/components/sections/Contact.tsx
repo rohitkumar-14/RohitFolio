@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MapPin, Mail, Clock, Code2, Link as LinkIcon, Github, Phone } from "lucide-react";
+import { MapPin, Mail, Clock, Code2, Link as LinkIcon, Phone } from "lucide-react";
 
 const contactLinks = [
   {
